@@ -1,5 +1,5 @@
 import Link from "next/link";
-import User from "./User";
+import UserCard from "./UserCard";
 
 export default function Header() {
   return (
@@ -19,7 +19,7 @@ export default function Header() {
         <Link className="hover:underline cursor-pointer" href="/">
           Images
         </Link>
-        <User />
+        <UserCard />
       </div>
     </header>
   );
