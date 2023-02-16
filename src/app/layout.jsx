@@ -1,6 +1,6 @@
 import Footer from "./components/Footer";
-import Header from "./components/Header";
 import "./globals.css";
+import Header from "./components/Header";
 import Head from "./head";
 import Providers from "./providers";
 

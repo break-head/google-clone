@@ -12,11 +12,11 @@ export default function Login() {
     if (status === "authenticated") {
       router.push("/");
     }
-  }, [status]);
+  });
   if (status === "loading") {
     return (
       <div className="flex justify-center mt-40">
-        <img className="h-80" src="/spinner.svg" alt="loading" />
+        <Image height="300px" width="300px" src="/spinner.svg" alt="loading" />
       </div>
     );
   }
