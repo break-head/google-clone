@@ -1,14 +1,25 @@
 "use client";
-import { useSession, signOut, signIn } from "next-auth/react";
+import { useSession, signIn } from "next-auth/react";
 import Image from "next/image";
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
 
 export default function Login() {
   const { status } = useSession();
+  const router = useRouter();
 
+  useEffect(() => {
+    if (status === "authenticated") {
+      router.push("/");
+    }
+  }, [status]);
   if (status === "loading") {
-    return <>Loading...</>;
+    return (
+      <div className="flex justify-center mt-40">
+        <img className="h-80" src="/spinner.svg" alt="loading" />
+      </div>
+    );
   }
-  if (status === "authenticated") return;
   return (
     <div className="mt-40">
       <div className="flex flex-col items-center">
@@ -20,7 +31,7 @@ export default function Login() {
           alt="google-logo"
         />
         <p className="text-sm italic my-10 text-center ">
-          this website is created for learning
+          This website is created for learning
         </p>
         <button
           className="bg-red-400 rounded-lg text-white p-3 hover:bg-red-500"
