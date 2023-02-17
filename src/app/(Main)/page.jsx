@@ -5,6 +5,7 @@ import { BsSearch } from "react-icons/bs";
 import { BiMicrophone } from "react-icons/bi";
 import { useRouter } from "next/navigation";
 import { useRef } from "react";
+
 export default function Home() {
   const router = useRouter();
   const searchInputRef = useRef(null);

@@ -16,7 +16,7 @@ export default function Login() {
   if (status === "loading") {
     return (
       <div className="flex justify-center mt-40">
-        <Image height="300px" width="300px" src="/spinner.svg" alt="loading" />
+        <Image height={300} width={300} src="/spinner.svg" alt="loading" />
       </div>
     );
   }
