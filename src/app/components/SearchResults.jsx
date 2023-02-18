@@ -1,5 +1,6 @@
 import Parser from "html-react-parser";
 import Link from "next/link";
+import PaginationButtons from "./PaginationButtons";
 
 export default function SearchResults({ results }) {
   return (
@@ -9,7 +10,10 @@ export default function SearchResults({ results }) {
         {results.searchInformation.formattedSearchTime} seconds)
       </p>
       {results.items?.map((result) => (
-        <div key={result.link} className="max-w-xl mb-8">
+        <div
+          key={result.link}
+          className="max-w-3xl mb-8 sm:pl-[5%] md:pl-[14%] lg:pl-48"
+        >
           <div className="group">
             <Link className="text-sm truncate" href={result.link}>
               {result.formattedUrl}
@@ -28,6 +32,7 @@ export default function SearchResults({ results }) {
           )}
         </div>
       ))}
+      <PaginationButtons />
     </div>
   );
 }

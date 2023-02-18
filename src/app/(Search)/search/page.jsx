@@ -2,7 +2,7 @@ import SearchResults from "@components/SearchResults";
 import Response from "Response";
 export default async function Search({ searchParams }) {
   const results = await getGoogleSearchResults(searchParams);
-  console.log(results);
+
   return (
     <>
       <SearchResults results={results} />
@@ -11,6 +11,7 @@ export default async function Search({ searchParams }) {
 }
 
 async function getGoogleSearchResults(searchParams) {
+  const startIndex = searchParams.start || 1;
   const mockData = true;
   const res = mockData
     ? Response
@@ -19,11 +20,13 @@ async function getGoogleSearchResults(searchParams) {
           process.env.API_KEY
         }&cx=${process.env.CONTEXT_KEY}&q=${searchParams.term}${
           searchParams.searchType && "&searchType=image"
-        }`
-      ).json();
+        }&start=${startIndex}`
+      );
+
+  // const data = await res.json();
   // if (!res.ok) {
   //   throw new Error("Something went wrong");
   // }
-
+  // console.log(data);
   return res;
 }
