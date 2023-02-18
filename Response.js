@@ -8,158 +8,169 @@ export default {
   queries: { request: [[Object]], nextPage: [[Object]] },
   context: { title: "go-v1" },
   searchInformation: {
-    searchTime: 0.151244,
+    searchTime: 0.146974,
     formattedSearchTime: "0.15",
-    totalResults: "327000",
-    formattedTotalResults: "327,000",
+    totalResults: "9480000",
+    formattedTotalResults: "9,480,000",
   },
   items: [
     {
       kind: "customsearch#result",
-      title: "The Trees of Cal Poly - Google My Maps",
-      htmlTitle: "The Trees of Cal Poly - Google My Maps",
-      link: "https://www.google.com/mymaps/viewer?mid=1flc3SkJg-MtGD87IpkHvDAEVBhY&hl=en_US",
+      title: "The World of Hello World - Google My Maps",
+      htmlTitle: "The World of <b>Hello</b> World - Google My Maps",
+      link: "https://www.google.com/mymaps/viewer?mid=1j9wMaiQ12jiqpEFD1HgZ3QPuPDk&hl=en",
       displayLink: "www.google.com",
       snippet:
-        "Oct 20, 2022 ... Explore a map of the dedicated, historic, and class trees of Cal Poly. The map is part of Special Collections and Archive's Winter 2016 ...",
+        "Jun 25, 2015 ... A map of programming languages and rough locations in the world where they were created. Colors correspond to four major epochs: blue ...",
       htmlSnippet:
-        "Oct 20, 2022 <b>...</b> Explore a map of the dedicated, historic, and class trees of Cal Poly. The map is part of Special Collections and Archive&#39;s Winter 2016&nbsp;...",
-      cacheId: "ORY0G_v-JREJ",
-      formattedUrl:
-        "https://www.google.com/mymaps/viewer?mid=1flc3SkJg...hl=en_US",
-      htmlFormattedUrl:
-        "https://www.google.com/mymaps/viewer?mid=1flc3SkJg...hl=en_US",
-      pagemap: [Object],
-    },
-    {
-      kind: "customsearch#result",
-      title: "https://www.google.com/calendar/event?eid=NzN1YXVu...",
-      htmlTitle: "https://www.google.com/calendar/event?eid=NzN1YXVu...",
-      link: "https://www.google.com/calendar/event?eid=NzN1YXVuY2UzaTE1cHZyNWlmNzM0N2hoYnMgbDM4Mjg3aWl2bDU4c291dTloMGtnY2wxbGdAZw&ctz=America/New_York",
-      displayLink: "www.google.com",
-      formattedUrl:
-        "https://www.google.com/calendar/event?eid...ctz=America/New_York",
-      htmlFormattedUrl:
-        "https://www.google.com/calendar/event?eid...ctz=America/New_York",
-    },
-    {
-      kind: "customsearch#result",
-      title: "Google Slides: Online Slideshow Maker | Google Workspace",
-      htmlTitle: "Google Slides: Online Slideshow Maker | Google Workspace",
-      link: "https://www.google.com/slides/about/",
-      displayLink: "www.google.com",
-      snippet:
-        "Use Google Slides to create online slideshows. Make beautiful presentations together with secure sharing in real-time and from any device.",
-      htmlSnippet:
-        "Use Google Slides to create online slideshows. Make beautiful presentations together with secure sharing in real-time and from any device.",
-      cacheId: "BqbRM4Tdrv4J",
-      formattedUrl: "https://www.google.com/slides/about/",
-      htmlFormattedUrl: "https://www.google.com/slides/about/",
-      pagemap: [Object],
-    },
-    {
-      kind: "customsearch#result",
-      title: "undefined outcome - Google My Maps",
-      htmlTitle: "<b>undefined</b> outcome - Google My Maps",
-      link: "https://www.google.com/mymaps/viewer?mid=1Y2zbxLqkyzVRiaGKB9j6ODoCCFY&hl=en",
-      displayLink: "www.google.com",
-      snippet:
-        "undefined outcome. Map Legend. Terms. 50 m. This map was created by a user. Learn how to create your own. Manage account. Create new map. Open map.",
-      htmlSnippet:
-        "<b>undefined</b> outcome. Map Legend. Terms. 50 m. This map was created by a user. Learn how to create your own. Manage account. Create new map. Open map.",
-      cacheId: "8r7lCBL7_iMJ",
+        "Jun 25, 2015 <b>...</b> A map of programming languages and rough locations in the world where they were created. Colors correspond to four major epochs: blue&nbsp;...",
+      cacheId: "FufnhR39gFAJ",
       formattedUrl: "https://www.google.com/mymaps/viewer?mid...hl=en",
       htmlFormattedUrl: "https://www.google.com/mymaps/viewer?mid...hl=en",
       pagemap: [Object],
     },
     {
       kind: "customsearch#result",
-      title: "Google Chrome Privacy Whitepaper",
-      htmlTitle: "Google Chrome Privacy Whitepaper",
-      link: "https://www.google.com/chrome/privacy/whitepaper.html",
+      title: "Hello Home - Google My Maps",
+      htmlTitle: "<b>Hello</b> Home - Google My Maps",
+      link: "https://www.google.com/mymaps/viewer?mid=z-jveZ_8YUyw.kUpffW-b97vo&hl=en",
       displayLink: "www.google.com",
       snippet:
-        "Feb 4, 2021 ... This document also describes the controls available to you regarding how your data is used by Chrome. Here we're focusing on the desktop version ...",
+        "Open full screen to view more. Hello Home. Collapse map legend. Map details. Copy map. Zoom to viewport. Embed map. Download KML. View map in Google Earth.",
       htmlSnippet:
-        "Feb 4, 2021 <b>...</b> This document also describes the controls available to you regarding how your data is used by Chrome. Here we&#39;re focusing on the desktop version&nbsp;...",
-      cacheId: "t67Y-xu-jmsJ",
-      formattedUrl: "https://www.google.com/chrome/privacy/whitepaper.html",
-      htmlFormattedUrl: "https://www.google.com/chrome/privacy/whitepaper.html",
-      pagemap: [Object],
-    },
-    {
-      kind: "customsearch#result",
-      title: "Google Maps",
-      htmlTitle: "Google Maps",
-      link: "https://www.google.com/maps/@35.8006286,-78.7157856,17z",
-      displayLink: "www.google.com",
-      snippet:
-        "Find local businesses, view maps and get driving directions in Google Maps.",
-      htmlSnippet:
-        "Find local businesses, view maps and get driving directions in Google Maps.",
-      cacheId: "0bbvc9ztEfAJ",
-      formattedUrl: "https://www.google.com/maps/@35.8006286,-78.7157856,17z",
+        "Open full screen to view more. <b>Hello</b> Home. Collapse map legend. Map details. Copy map. Zoom to viewport. Embed map. Download KML. View map in Google Earth.",
+      cacheId: "MTvOT7Jmd8wJ",
+      formattedUrl:
+        "https://www.google.com/mymaps/viewer?mid=z-jveZ_8YUyw...hl...",
       htmlFormattedUrl:
-        "https://www.google.com/maps/@35.8006286,-78.7157856,17z",
+        "https://www.google.com/mymaps/viewer?mid=z-jveZ_8YUyw...hl...",
       pagemap: [Object],
     },
     {
       kind: "customsearch#result",
-      title: "Google Photos",
-      htmlTitle: "Google Photos",
-      link: "https://www.google.com/intl/en_uk/photos/about/",
+      title: "Hello Perth Tourist Guide Pickup Locations - Google My Maps",
+      htmlTitle:
+        "<b>Hello</b> Perth Tourist Guide Pickup Locations - Google My Maps",
+      link: "https://www.google.com/mymaps/viewer?mid=1Jf9tWzlsupHO9SrttiA8-OT0uxE&hl=en",
       displayLink: "www.google.com",
       snippet:
-        "Google Photos is the home for all your photos and videos, automatically organised and easy to share.",
+        "Apr 29, 2016 ... Here is a handy list of locations where you may pickup a free printed copy of Hello Perth. - Attractions and Events - Dining and Shopping ...",
       htmlSnippet:
-        "Google Photos is the home for all your photos and videos, automatically organised and easy to share.",
-      cacheId: "eEZlusouYHUJ",
-      formattedUrl: "https://www.google.com/intl/en_uk/photos/about/",
-      htmlFormattedUrl: "https://www.google.com/intl/en_uk/photos/about/",
+        "Apr 29, 2016 <b>...</b> Here is a handy list of locations where you may pickup a free printed copy of <b>Hello</b> Perth. - Attractions and Events - Dining and Shopping&nbsp;...",
+      cacheId: "Yk-nsbF7xRkJ",
+      formattedUrl:
+        "https://www.google.com/mymaps/viewer?mid=1Jf9tWzlsupHO9SrttiA8...",
+      htmlFormattedUrl:
+        "https://www.google.com/mymaps/viewer?mid=1Jf9tWzlsupHO9SrttiA8...",
       pagemap: [Object],
     },
     {
       kind: "customsearch#result",
-      title: "Sign in - Google Accounts",
-      htmlTitle: "Sign in - Google Accounts",
-      link: "https://www.google.com/android/uncertified/",
+      title: "Hello Google Earth!",
+      htmlTitle: "<b>Hello</b> Google Earth!",
+      link: "https://www.google.com/earth/plugin/examples/helloearth/?hl=ja",
+      displayLink: "www.google.com",
+      snippet: "Hello, Earth!",
+      htmlSnippet: "<b>Hello</b>, Earth!",
+      cacheId: "bs2ZMH0DVvUJ",
+      formattedUrl:
+        "https://www.google.com/earth/plugin/examples/helloearth/?hl=ja",
+      htmlFormattedUrl:
+        "https://www.google.com/earth/plugin/examples/<b>hello</b>earth/?hl=ja",
+    },
+    {
+      kind: "customsearch#result",
+      title: "Hello Kitty Cafe - Kyoto - Google My Maps",
+      htmlTitle: "<b>Hello</b> Kitty Cafe - Kyoto - Google My Maps",
+      link: "https://www.google.com/mymaps/viewer?mid=1Df9gUVvMTf_mCunWr9yBGoIeq88&hl=en_US",
       displayLink: "www.google.com",
       snippet:
-        "Not your computer? Use Guest mode to sign in privately. Learn more. Next. Create account. English (United States). Afrikaans; azərbaycan; bosanski; català ...",
+        "Aug 2, 2017 ... Hello Kitty Cafe - Kyoto. ... Hello Kitty Cafe - Kyoto. Map Legend. Terms. 50 m. This map was created by a user.",
       htmlSnippet:
-        "Not your computer? Use Guest mode to sign in privately. Learn more. Next. Create account. English (United States). Afrikaans; azərbaycan; bosanski; català&nbsp;...",
-      cacheId: "fGMhAr7-iusJ",
-      formattedUrl: "https://www.google.com/android/uncertified/",
-      htmlFormattedUrl: "https://www.google.com/android/uncertified/",
+        "Aug 2, 2017 <b>...</b> <b>Hello</b> Kitty Cafe - Kyoto. ... <b>Hello</b> Kitty Cafe - Kyoto. Map Legend. Terms. 50 m. This map was created by a user.",
+      cacheId: "5y2wUnzrzYgJ",
+      formattedUrl:
+        "https://www.google.com/mymaps/viewer?mid=1Df9gUVvMTf...hl...",
+      htmlFormattedUrl:
+        "https://www.google.com/mymaps/viewer?mid=1Df9gUVvMTf...hl...",
       pagemap: [Object],
     },
     {
       kind: "customsearch#result",
-      title: "Google Chrome Web Browser",
-      htmlTitle: "Google Chrome Web Browser",
-      link: "https://www.google.com/intl/en_ph/chrome/",
+      title: "HELLO Cabo! - Google My Maps",
+      htmlTitle: "<b>HELLO</b> Cabo! - Google My Maps",
+      link: "https://www.google.com/mymaps/viewer?mid=1lxZFm5qTLooKIP4mUCt4RSbK3VM&hl=en_US",
       displayLink: "www.google.com",
       snippet:
-        "Zoomed-in view of a new tab in a Chrome browser window with chrome. Built by google. Browse with the power of Google. With Google apps like Gmail, Google Pay, ...",
+        "HELLO Cabo is the prefered International Prepaid Calling Card (IPCC) in Cabo San Lucas and San Jose Del Cabo.",
       htmlSnippet:
-        "Zoomed-in view of a new tab in a Chrome browser window with chrome. Built by google. Browse with the power of Google. With Google apps like Gmail, Google Pay,&nbsp;...",
-      cacheId: "ej5sJ5e6_A8J",
-      formattedUrl: "https://www.google.com/intl/en_ph/chrome/",
-      htmlFormattedUrl: "https://www.google.com/intl/en_ph/chrome/",
+        "<b>HELLO</b> Cabo is the prefered International Prepaid Calling Card (IPCC) in Cabo San Lucas and San Jose Del Cabo.",
+      cacheId: "lL-ND631ylEJ",
+      formattedUrl: "https://www.google.com/mymaps/viewer?mid...hl=en_US",
+      htmlFormattedUrl: "https://www.google.com/mymaps/viewer?mid...hl=en_US",
       pagemap: [Object],
     },
     {
       kind: "customsearch#result",
-      title: "Celebrating Pétanque",
-      htmlTitle: "Celebrating Pétanque",
-      link: "https://www.google.com/doodles/celebrating-petanque",
+      title: "Hello Sailor - Google My Maps",
+      htmlTitle: "<b>Hello</b> Sailor - Google My Maps",
+      link: "https://www.google.com/mymaps/viewer?mid=1CMSBhpgbe0Urhhugl0wqOYYGvFI&hl=en",
+      displayLink: "www.google.com",
+      snippet: "Hello Sailor Bistro is a kief place! Seriously ... it is!",
+      htmlSnippet:
+        "<b>Hello</b> Sailor Bistro is a kief place! Seriously ... it is!",
+      cacheId: "1mjupeY28xEJ",
+      formattedUrl: "https://www.google.com/mymaps/viewer?mid...hl=en",
+      htmlFormattedUrl: "https://www.google.com/mymaps/viewer?mid...hl=en",
+      pagemap: [Object],
+    },
+    {
+      kind: "customsearch#result",
+      title: "Hello B&B - Google My Maps",
+      htmlTitle: "<b>Hello</b> B&amp;B - Google My Maps",
+      link: "https://www.google.com/mymaps/viewer?mid=17TRKjdgIEYLk6HelmcrMvcZLQAI&hl=en_US",
       displayLink: "www.google.com",
       snippet:
-        "Jul 31, 2022 ... Today's interactive Doodle game celebrates Pétanque, a beloved French outdoor game played around the world. Just click the Doodle to play a ...",
+        "Bed and Breakfast Hello. ... Hello B&B. Map Legend. Terms. 50 m. This map was created by a user. Learn how to create your own. Manage account.",
       htmlSnippet:
-        "Jul 31, 2022 <b>...</b> Today&#39;s interactive Doodle game celebrates Pétanque, a beloved French outdoor game played around the world. Just click the Doodle to play a&nbsp;...",
-      formattedUrl: "https://www.google.com/doodles/celebrating-petanque",
-      htmlFormattedUrl: "https://www.google.com/doodles/celebrating-petanque",
+        "Bed and Breakfast <b>Hello</b>. ... <b>Hello</b> B&amp;B. Map Legend. Terms. 50 m. This map was created by a user. Learn how to create your own. Manage account.",
+      cacheId: "ZFH7091rwwAJ",
+      formattedUrl: "https://www.google.com/mymaps/viewer?mid...hl=en_US",
+      htmlFormattedUrl: "https://www.google.com/mymaps/viewer?mid...hl=en_US",
+      pagemap: [Object],
+    },
+    {
+      kind: "customsearch#result",
+      title: "Say Hello and Introduce Yourself - Google Public Data Explorer",
+      htmlTitle:
+        "Say <b>Hello</b> and Introduce Yourself - Google Public Data Explorer",
+      link: "https://www.google.com/publicdata/explore?ds=ene89huqop5hk_",
+      displayLink: "www.google.com",
+      snippet:
+        "Activity in the 'Say Hello and Introduce Yourself' forum in the Global Classroom. More info ». Last updated: Feb 5, 2012.",
+      htmlSnippet:
+        "Activity in the &#39;Say <b>Hello</b> and Introduce Yourself&#39; forum in the Global Classroom. More info ». Last updated: Feb 5, 2012.",
+      cacheId: "0BnuvV7sJ2kJ",
+      formattedUrl:
+        "https://www.google.com/publicdata/explore?ds=ene89huqop5hk_",
+      htmlFormattedUrl:
+        "https://www.google.com/publicdata/explore?ds=ene89huqop5hk_",
+      pagemap: [Object],
+    },
+    {
+      kind: "customsearch#result",
+      title: "Megastore Estoril - Hello Kitty - Google My Maps",
+      htmlTitle: "Megastore Estoril - <b>Hello</b> Kitty - Google My Maps",
+      link: "https://www.google.com/maps/d/viewer?mid=z9KBb_f5ZkMA.k2hXl3JJnmcI&ie=UTF8&oe=UTF8&msa=0",
+      displayLink: "www.google.com",
+      snippet:
+        "Jun 12, 2015 ... Megastore Estoril - Hello Kitty. Map Legend. Terms. 50 m. This map was created by a user. Learn how to create your own. Manage account.",
+      htmlSnippet:
+        "Jun 12, 2015 <b>...</b> Megastore Estoril - <b>Hello</b> Kitty. Map Legend. Terms. 50 m. This map was created by a user. Learn how to create your own. Manage account.",
+      cacheId: "WLjzJJBEMRMJ",
+      formattedUrl: "https://www.google.com/maps/d/viewer?mid=z9KBb_f5ZkMA...",
+      htmlFormattedUrl:
+        "https://www.google.com/maps/d/viewer?mid=z9KBb_f5ZkMA...",
       pagemap: [Object],
     },
   ],
