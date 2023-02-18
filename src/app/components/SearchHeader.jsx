@@ -7,6 +7,7 @@ import { BsSearch } from "react-icons/bs";
 import { BiMicrophone } from "react-icons/bi";
 import { HiX } from "react-icons/hi";
 import UserCard from "./UserCard";
+import SearchHeaderOptions from "./SearchHeaderOptions";
 export default function SearchHeader() {
   const router = useRouter();
   const params = useSearchParams().get("term");
@@ -16,7 +17,7 @@ export default function SearchHeader() {
     e.preventDefault();
     const term = searchInputRef.current.value;
     if (!term.trim()) return;
-    router.push(`/search?term=${term.trim()}`);
+    router.push(`/search?term=${term.trim()}&searchType=`);
   };
   return (
     <header className="sticky top-0 bg-white">
@@ -46,6 +47,7 @@ export default function SearchHeader() {
         </form>
         <UserCard className="ml-auto whitespace-nowrap" />
       </div>
+      <SearchHeaderOptions />
     </header>
   );
 }
