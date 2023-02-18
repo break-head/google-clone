@@ -1,3 +1,3 @@
-export default function search() {
+export default async function Search() {
   return <div></div>;
 }
