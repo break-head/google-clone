@@ -5,173 +5,272 @@ export default {
     template:
       "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json",
   },
-  queries: { request: [[Object]], nextPage: [[Object]] },
-  context: { title: "go-v1" },
+  queries: {
+    request: [
+      {
+        title: "Google Custom Search - google",
+        totalResults: "3960000000",
+        searchTerms: "google",
+        count: 10,
+        startIndex: 1,
+        inputEncoding: "utf8",
+        outputEncoding: "utf8",
+        safe: "off",
+        cx: "6150fed0d37f64887",
+        searchType: "image",
+      },
+    ],
+    nextPage: [
+      {
+        title: "Google Custom Search - google",
+        totalResults: "3960000000",
+        searchTerms: "google",
+        count: 10,
+        startIndex: 11,
+        inputEncoding: "utf8",
+        outputEncoding: "utf8",
+        safe: "off",
+        cx: "6150fed0d37f64887",
+        searchType: "image",
+      },
+    ],
+  },
+  context: {
+    title: "go-v1",
+  },
   searchInformation: {
-    searchTime: 0.146974,
-    formattedSearchTime: "0.15",
-    totalResults: "9480000",
-    formattedTotalResults: "9,480,000",
+    searchTime: 0.424448,
+    formattedSearchTime: "0.42",
+    totalResults: "3960000000",
+    formattedTotalResults: "3,960,000,000",
   },
   items: [
     {
       kind: "customsearch#result",
-      title: "The World of Hello World - Google My Maps",
-      htmlTitle: "The World of <b>Hello</b> World - Google My Maps",
-      link: "https://www.google.com/mymaps/viewer?mid=1j9wMaiQ12jiqpEFD1HgZ3QPuPDk&hl=en",
-      displayLink: "www.google.com",
-      snippet:
-        "Jun 25, 2015 ... A map of programming languages and rough locations in the world where they were created. Colors correspond to four major epochs: blue ...",
-      htmlSnippet:
-        "Jun 25, 2015 <b>...</b> A map of programming languages and rough locations in the world where they were created. Colors correspond to four major epochs: blue&nbsp;...",
-      cacheId: "FufnhR39gFAJ",
-      formattedUrl: "https://www.google.com/mymaps/viewer?mid...hl=en",
-      htmlFormattedUrl: "https://www.google.com/mymaps/viewer?mid...hl=en",
-      pagemap: [Object],
-    },
-    {
-      kind: "customsearch#result",
-      title: "Hello Home - Google My Maps",
-      htmlTitle: "<b>Hello</b> Home - Google My Maps",
-      link: "https://www.google.com/mymaps/viewer?mid=z-jveZ_8YUyw.kUpffW-b97vo&hl=en",
-      displayLink: "www.google.com",
-      snippet:
-        "Open full screen to view more. Hello Home. Collapse map legend. Map details. Copy map. Zoom to viewport. Embed map. Download KML. View map in Google Earth.",
-      htmlSnippet:
-        "Open full screen to view more. <b>Hello</b> Home. Collapse map legend. Map details. Copy map. Zoom to viewport. Embed map. Download KML. View map in Google Earth.",
-      cacheId: "MTvOT7Jmd8wJ",
-      formattedUrl:
-        "https://www.google.com/mymaps/viewer?mid=z-jveZ_8YUyw...hl...",
-      htmlFormattedUrl:
-        "https://www.google.com/mymaps/viewer?mid=z-jveZ_8YUyw...hl...",
-      pagemap: [Object],
-    },
-    {
-      kind: "customsearch#result",
-      title: "Hello Perth Tourist Guide Pickup Locations - Google My Maps",
+      title: "Google Forms: Online Form Creator | Google Workspace",
       htmlTitle:
-        "<b>Hello</b> Perth Tourist Guide Pickup Locations - Google My Maps",
-      link: "https://www.google.com/mymaps/viewer?mid=1Jf9tWzlsupHO9SrttiA8-OT0uxE&hl=en",
+        "<b>Google</b> Forms: Online Form Creator | <b>Google</b> Workspace",
+      link: "https://lh3.googleusercontent.com/YvDfJ1PG-QOoaUM21D7V54tkIk-oiDJijnACQ51fMiC40KNqx5LHJbQBEEzhk4i4iuOTh-weqftfN4S6LuQDre5DhrddWaIGoJnKW2W5Hk-vQCWEG3I=s0",
       displayLink: "www.google.com",
-      snippet:
-        "Apr 29, 2016 ... Here is a handy list of locations where you may pickup a free printed copy of Hello Perth. - Attractions and Events - Dining and Shopping ...",
+      snippet: "Google Forms: Online Form Creator | Google Workspace",
       htmlSnippet:
-        "Apr 29, 2016 <b>...</b> Here is a handy list of locations where you may pickup a free printed copy of <b>Hello</b> Perth. - Attractions and Events - Dining and Shopping&nbsp;...",
-      cacheId: "Yk-nsbF7xRkJ",
-      formattedUrl:
-        "https://www.google.com/mymaps/viewer?mid=1Jf9tWzlsupHO9SrttiA8...",
-      htmlFormattedUrl:
-        "https://www.google.com/mymaps/viewer?mid=1Jf9tWzlsupHO9SrttiA8...",
-      pagemap: [Object],
+        "<b>Google</b> Forms: Online Form Creator | <b>Google</b> Workspace",
+      mime: "image/",
+      fileFormat: "image/",
+      image: {
+        contextLink: "https://www.google.com/forms/about/",
+        height: 730,
+        width: 1120,
+        byteSize: 36335,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZYy4a1fjP2I4q8xUWbXhm1_CBKJfOgvJf9V0_X-YrcRCFp-PL58DnO2M&s",
+        thumbnailHeight: 98,
+        thumbnailWidth: 150,
+      },
     },
     {
       kind: "customsearch#result",
-      title: "Hello Google Earth!",
-      htmlTitle: "<b>Hello</b> Google Earth!",
-      link: "https://www.google.com/earth/plugin/examples/helloearth/?hl=ja",
-      displayLink: "www.google.com",
-      snippet: "Hello, Earth!",
-      htmlSnippet: "<b>Hello</b>, Earth!",
-      cacheId: "bs2ZMH0DVvUJ",
-      formattedUrl:
-        "https://www.google.com/earth/plugin/examples/helloearth/?hl=ja",
-      htmlFormattedUrl:
-        "https://www.google.com/earth/plugin/examples/<b>hello</b>earth/?hl=ja",
-    },
-    {
-      kind: "customsearch#result",
-      title: "Hello Kitty Cafe - Kyoto - Google My Maps",
-      htmlTitle: "<b>Hello</b> Kitty Cafe - Kyoto - Google My Maps",
-      link: "https://www.google.com/mymaps/viewer?mid=1Df9gUVvMTf_mCunWr9yBGoIeq88&hl=en_US",
-      displayLink: "www.google.com",
-      snippet:
-        "Aug 2, 2017 ... Hello Kitty Cafe - Kyoto. ... Hello Kitty Cafe - Kyoto. Map Legend. Terms. 50 m. This map was created by a user.",
-      htmlSnippet:
-        "Aug 2, 2017 <b>...</b> <b>Hello</b> Kitty Cafe - Kyoto. ... <b>Hello</b> Kitty Cafe - Kyoto. Map Legend. Terms. 50 m. This map was created by a user.",
-      cacheId: "5y2wUnzrzYgJ",
-      formattedUrl:
-        "https://www.google.com/mymaps/viewer?mid=1Df9gUVvMTf...hl...",
-      htmlFormattedUrl:
-        "https://www.google.com/mymaps/viewer?mid=1Df9gUVvMTf...hl...",
-      pagemap: [Object],
-    },
-    {
-      kind: "customsearch#result",
-      title: "HELLO Cabo! - Google My Maps",
-      htmlTitle: "<b>HELLO</b> Cabo! - Google My Maps",
-      link: "https://www.google.com/mymaps/viewer?mid=1lxZFm5qTLooKIP4mUCt4RSbK3VM&hl=en_US",
-      displayLink: "www.google.com",
-      snippet:
-        "HELLO Cabo is the prefered International Prepaid Calling Card (IPCC) in Cabo San Lucas and San Jose Del Cabo.",
-      htmlSnippet:
-        "<b>HELLO</b> Cabo is the prefered International Prepaid Calling Card (IPCC) in Cabo San Lucas and San Jose Del Cabo.",
-      cacheId: "lL-ND631ylEJ",
-      formattedUrl: "https://www.google.com/mymaps/viewer?mid...hl=en_US",
-      htmlFormattedUrl: "https://www.google.com/mymaps/viewer?mid...hl=en_US",
-      pagemap: [Object],
-    },
-    {
-      kind: "customsearch#result",
-      title: "Hello Sailor - Google My Maps",
-      htmlTitle: "<b>Hello</b> Sailor - Google My Maps",
-      link: "https://www.google.com/mymaps/viewer?mid=1CMSBhpgbe0Urhhugl0wqOYYGvFI&hl=en",
-      displayLink: "www.google.com",
-      snippet: "Hello Sailor Bistro is a kief place! Seriously ... it is!",
-      htmlSnippet:
-        "<b>Hello</b> Sailor Bistro is a kief place! Seriously ... it is!",
-      cacheId: "1mjupeY28xEJ",
-      formattedUrl: "https://www.google.com/mymaps/viewer?mid...hl=en",
-      htmlFormattedUrl: "https://www.google.com/mymaps/viewer?mid...hl=en",
-      pagemap: [Object],
-    },
-    {
-      kind: "customsearch#result",
-      title: "Hello B&B - Google My Maps",
-      htmlTitle: "<b>Hello</b> B&amp;B - Google My Maps",
-      link: "https://www.google.com/mymaps/viewer?mid=17TRKjdgIEYLk6HelmcrMvcZLQAI&hl=en_US",
-      displayLink: "www.google.com",
-      snippet:
-        "Bed and Breakfast Hello. ... Hello B&B. Map Legend. Terms. 50 m. This map was created by a user. Learn how to create your own. Manage account.",
-      htmlSnippet:
-        "Bed and Breakfast <b>Hello</b>. ... <b>Hello</b> B&amp;B. Map Legend. Terms. 50 m. This map was created by a user. Learn how to create your own. Manage account.",
-      cacheId: "ZFH7091rwwAJ",
-      formattedUrl: "https://www.google.com/mymaps/viewer?mid...hl=en_US",
-      htmlFormattedUrl: "https://www.google.com/mymaps/viewer?mid...hl=en_US",
-      pagemap: [Object],
-    },
-    {
-      kind: "customsearch#result",
-      title: "Say Hello and Introduce Yourself - Google Public Data Explorer",
+      title: "Google Slides: Online Slideshow Maker | Google Workspace",
       htmlTitle:
-        "Say <b>Hello</b> and Introduce Yourself - Google Public Data Explorer",
-      link: "https://www.google.com/publicdata/explore?ds=ene89huqop5hk_",
+        "<b>Google</b> Slides: Online Slideshow Maker | <b>Google</b> Workspace",
+      link: "https://lh3.googleusercontent.com/W3HBkgBOukkuEyRDn0nleMCyB_si5PQqmc51J-isU6gnKyj1m0zlzOAhvxbtfZHgALetXEuqJMi7dnDlQIZgJlTwe6Td-qyEYKBnJ3xiTPHTUodW5Oo=s0",
       displayLink: "www.google.com",
-      snippet:
-        "Activity in the 'Say Hello and Introduce Yourself' forum in the Global Classroom. More info ». Last updated: Feb 5, 2012.",
+      snippet: "Google Slides: Online Slideshow Maker | Google Workspace",
       htmlSnippet:
-        "Activity in the &#39;Say <b>Hello</b> and Introduce Yourself&#39; forum in the Global Classroom. More info ». Last updated: Feb 5, 2012.",
-      cacheId: "0BnuvV7sJ2kJ",
-      formattedUrl:
-        "https://www.google.com/publicdata/explore?ds=ene89huqop5hk_",
-      htmlFormattedUrl:
-        "https://www.google.com/publicdata/explore?ds=ene89huqop5hk_",
-      pagemap: [Object],
+        "<b>Google</b> Slides: Online Slideshow Maker | <b>Google</b> Workspace",
+      mime: "image/",
+      fileFormat: "image/",
+      image: {
+        contextLink: "https://www.google.com/slides/about/",
+        height: 730,
+        width: 1120,
+        byteSize: 159281,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX9m_Id2RyegDVfqWWJDdmoEPtVbRhyOlcX8Id8olCTB1NnVteh0iU8w&s",
+        thumbnailHeight: 98,
+        thumbnailWidth: 150,
+      },
     },
     {
       kind: "customsearch#result",
-      title: "Megastore Estoril - Hello Kitty - Google My Maps",
-      htmlTitle: "Megastore Estoril - <b>Hello</b> Kitty - Google My Maps",
-      link: "https://www.google.com/maps/d/viewer?mid=z9KBb_f5ZkMA.k2hXl3JJnmcI&ie=UTF8&oe=UTF8&msa=0",
+      title: "Google Chrome - Download the Fast, Secure Browser from Google",
+      htmlTitle:
+        "<b>Google</b> Chrome - Download the Fast, Secure Browser from <b>Google</b>",
+      link: "https://www.google.com/chrome/static/images/home-experiment/hero-img_desktop.webp",
       displayLink: "www.google.com",
-      snippet:
-        "Jun 12, 2015 ... Megastore Estoril - Hello Kitty. Map Legend. Terms. 50 m. This map was created by a user. Learn how to create your own. Manage account.",
+      snippet: "Google Chrome - Download the Fast, Secure Browser from Google",
       htmlSnippet:
-        "Jun 12, 2015 <b>...</b> Megastore Estoril - <b>Hello</b> Kitty. Map Legend. Terms. 50 m. This map was created by a user. Learn how to create your own. Manage account.",
-      cacheId: "WLjzJJBEMRMJ",
-      formattedUrl: "https://www.google.com/maps/d/viewer?mid=z9KBb_f5ZkMA...",
-      htmlFormattedUrl:
-        "https://www.google.com/maps/d/viewer?mid=z9KBb_f5ZkMA...",
-      pagemap: [Object],
+        "<b>Google</b> Chrome - Download the Fast, Secure Browser from <b>Google</b>",
+      mime: "image/webp",
+      fileFormat: "image/webp",
+      image: {
+        contextLink: "https://www.google.com/chrome/",
+        height: 508,
+        width: 840,
+        byteSize: 16512,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY8saR9eWX4dHUSgumokcio8KySurL1s2p0ti1zGO0zw0YI80_hF5Ckw&s",
+        thumbnailHeight: 88,
+        thumbnailWidth: 145,
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Google Docs: Online Document Editor | Google Workspace",
+      htmlTitle:
+        "<b>Google</b> Docs: Online Document Editor | <b>Google</b> Workspace",
+      link: "https://lh3.googleusercontent.com/4BcOYDs5e95hVbpGR0kDVKXRVAldcyYoHrM3q7Ashp2JrVARBVgglUwS_xPaIg_yuqWZJEpwlIjHUcQ63i9SPZBMq5E-t3A9EH5VX1y_mcRY_IbhYbg=s0",
+      displayLink: "www.google.com",
+      snippet: "Google Docs: Online Document Editor | Google Workspace",
+      htmlSnippet:
+        "<b>Google</b> Docs: Online Document Editor | <b>Google</b> Workspace",
+      mime: "image/",
+      fileFormat: "image/",
+      image: {
+        contextLink: "https://www.google.com/docs/about/",
+        height: 788,
+        width: 1128,
+        byteSize: 201111,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSOv8ptqY34PpQGrVIU0dPxsphmRuHhB1XZhMALyhIAhA2JbBi5nT4Yg&s",
+        thumbnailHeight: 105,
+        thumbnailWidth: 150,
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Google Forms: Online Form Creator | Google Workspace",
+      htmlTitle:
+        "<b>Google</b> Forms: Online Form Creator | <b>Google</b> Workspace",
+      link: "https://lh3.googleusercontent.com/fAQAzXOc_vdu9y9UjXqvGqWbaL0bdJq1CCxljUModhJUA0trlXlHs8gMiOZwcDM_g94h1w9rjIz6YKJqTqpQKmWydv5nNohvkd-x_EkkPbJCzbgtDSQ=s0",
+      displayLink: "www.google.com",
+      snippet: "Google Forms: Online Form Creator | Google Workspace",
+      htmlSnippet:
+        "<b>Google</b> Forms: Online Form Creator | <b>Google</b> Workspace",
+      mime: "image/",
+      fileFormat: "image/",
+      image: {
+        contextLink: "https://www.google.com/forms/about/",
+        height: 730,
+        width: 1120,
+        byteSize: 35432,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkM53eT9DEiRwHhFo9EQwQLdkYlQuT7F4HLC2pla2vIGyxyYLRwGQxey0&s",
+        thumbnailHeight: 98,
+        thumbnailWidth: 150,
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Google Forms: Online Form Creator | Google Workspace",
+      htmlTitle:
+        "<b>Google</b> Forms: Online Form Creator | <b>Google</b> Workspace",
+      link: "https://lh3.googleusercontent.com/xKbst5BHKybHhf2fmIoV-LpfgFlpwDTn5AZ5Ykf9iFiruVOBXEIIfYbYRRy84s0nyR0frp0nLbPeW0pKxfCPBE1kqBnoDgrgg4x1fcQG8nbkOQ4KhzzK=s0",
+      displayLink: "www.google.com",
+      snippet: "Google Forms: Online Form Creator | Google Workspace",
+      htmlSnippet:
+        "<b>Google</b> Forms: Online Form Creator | <b>Google</b> Workspace",
+      mime: "image/",
+      fileFormat: "image/",
+      image: {
+        contextLink: "https://www.google.com/forms/about/",
+        height: 730,
+        width: 1120,
+        byteSize: 166930,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReC_36AzpT7k3Oixs5_tyQ7Wp8udQETPEudtrzbZ19dWD7B4twRIwtwQ&s",
+        thumbnailHeight: 98,
+        thumbnailWidth: 150,
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Google Partners - Take your business to the next level",
+      htmlTitle:
+        "<b>Google</b> Partners - Take your business to the next level",
+      link: "https://lh3.googleusercontent.com/_MkUnx3OBNqUTtqujyWAXqJUjHwLyAXV-tTbvQKMbceXOnH-MDS2CHfFap6-R9ljEahSWFdRosA1usvXPynJUy4b-SJO8cQvaIex8BlYfk9jesIobQ",
+      displayLink: "www.google.com",
+      snippet: "Google Partners - Take your business to the next level",
+      htmlSnippet:
+        "<b>Google</b> Partners - Take your business to the next level",
+      mime: "image/",
+      fileFormat: "image/",
+      image: {
+        contextLink: "https://www.google.com/partners/become-a-partner/",
+        height: 310,
+        width: 325,
+        byteSize: 4200,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrgEO6zRPcEWW0C6moJqgTLfE0Zxthkdyf-8fvThmPJSmoZIBNu0Uh&s",
+        thumbnailHeight: 113,
+        thumbnailWidth: 118,
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Google Chrome - Download the Fast, Secure Browser from Google",
+      htmlTitle:
+        "<b>Google</b> Chrome - Download the Fast, Secure Browser from <b>Google</b>",
+      link: "https://www.google.com/chrome/static/images/homepage/homepage.png",
+      displayLink: "www.google.com",
+      snippet: "Google Chrome - Download the Fast, Secure Browser from Google",
+      htmlSnippet:
+        "<b>Google</b> Chrome - Download the Fast, Secure Browser from <b>Google</b>",
+      mime: "image/png",
+      fileFormat: "image/png",
+      image: {
+        contextLink: "https://www.google.com/chrome/",
+        height: 630,
+        width: 1200,
+        byteSize: 106433,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoMwkYsLvpy9vX5u6cMgKT6R7wHZPIpupmOwxmxVogctUo1LMsm5GbSw&s",
+        thumbnailHeight: 79,
+        thumbnailWidth: 150,
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Halloween 2022",
+      htmlTitle: "Halloween 2022",
+      link: "http://www.google.com/logos/doodles/2022/halloween-2022-6753651837109529-2xa.gif",
+      displayLink: "www.google.com",
+      snippet: "Halloween 2022",
+      htmlSnippet: "Halloween 2022",
+      mime: "image/gif",
+      fileFormat: "image/gif",
+      image: {
+        contextLink: "https://www.google.com/doodles/halloween-2022",
+        height: 400,
+        width: 926,
+        byteSize: 998731,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUiHPa-K9gkX0VXYgL7rdI-dA18qrhjpgeYCimCfhX1XlC0cAeC6Ol-A&s",
+        thumbnailHeight: 63,
+        thumbnailWidth: 147,
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "44th Anniversary of the Birth of Hip Hop",
+      htmlTitle: "44th Anniversary of the Birth of Hip Hop",
+      link: "http://www.google.com/logos/doodles/2017/44th-anniversary-of-the-birth-of-hip-hop-5102114591211520.3-2xa.gif",
+      displayLink: "www.google.com",
+      snippet: "44th Anniversary of the Birth of Hip Hop",
+      htmlSnippet: "44th Anniversary of the Birth of Hip Hop",
+      mime: "image/gif",
+      fileFormat: "image/gif",
+      image: {
+        contextLink:
+          "https://www.google.com/doodles/44th-anniversary-of-the-birth-of-hip-hop",
+        height: 440,
+        width: 1091,
+        byteSize: 707141,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrs0MUWfxSbgs19mztzRbGl5vntVzIvjh_qwUGOgqvc1soB16DxxH8uB8&s",
+        thumbnailHeight: 60,
+        thumbnailWidth: 150,
+      },
     },
   ],
 };

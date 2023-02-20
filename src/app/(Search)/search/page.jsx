@@ -1,32 +1,28 @@
+import ImageResults from "@components/ImageResults";
 import SearchResults from "@components/SearchResults";
 import Response from "Response";
-export default async function Search({ searchParams }) {
-  const results = await getGoogleSearchResults(searchParams);
 
+export default async function Search({ searchParams }) {
+  const startIndex = searchParams.start || 1;
+
+  const searchData = await fetch(
+    `https://www.googleapis.com/customsearch/v1?key=${process.env.API_KEY}&cx=${
+      process.env.CONTEXT_KEY
+    }&q=${searchParams.term}${
+      searchParams.searchType && "&searchType=image"
+    }&start=${startIndex}`,
+    { cache: "no-store" }
+  ).then((res) => res.json());
+
+  // const results = JSON.stringify(searchData, null, 2);
+  console.log(JSON.stringify(searchData, null, 2));
   return (
     <>
-      <SearchResults results={results} />
+      {searchParams.searchType === "image" ? (
+        <ImageResults results={searchData} />
+      ) : (
+        <SearchResults results={searchData} />
+      )}
     </>
   );
-}
-
-async function getGoogleSearchResults(searchParams) {
-  const startIndex = searchParams.start || 1;
-  const mockData = true;
-  const res = mockData
-    ? Response
-    : await fetch(
-        `https://www.googleapis.com/customsearch/v1?key=${
-          process.env.API_KEY
-        }&cx=${process.env.CONTEXT_KEY}&q=${searchParams.term}${
-          searchParams.searchType && "&searchType=image"
-        }&start=${startIndex}`
-      );
-
-  // const data = await res.json();
-  // if (!res.ok) {
-  //   throw new Error("Something went wrong");
-  // }
-  // console.log(data);
-  return res;
 }

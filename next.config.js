@@ -3,7 +3,20 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-  images: { domains: ["lh3.googleusercontent.com"] },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**.**.com",
+      },
+    ],
+    domains: [
+      "www.google.com",
+      "lh3.googleusercontent.com",
+      "lh5.googleusercontent.com",
+      "i.ytimg.com",
+    ],
+  },
 };
 
 module.exports = nextConfig;

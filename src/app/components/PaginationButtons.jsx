@@ -1,4 +1,5 @@
 "use client";
+
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
@@ -9,7 +10,7 @@ export default function PaginationButtons() {
   const startIndex = Number(useSearchParams().get("start")) || 1;
 
   return (
-    <div className="flex sm:justify-start sm:space-x-44 sm:pl-48 pb-5 px-5 justify-between text-blue-500">
+    <div className="flex sm:justify-start sm:space-x-44 pb-5 px-5 justify-between text-blue-500">
       {startIndex > 10 && (
         <Link
           href={`/search?term=${searchParams}&searchType=${searchType}&start=${
